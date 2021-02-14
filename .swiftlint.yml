@@ -1,0 +1,35 @@
+# 無効にするルール
+disabled_rules:
+ - empty_enum_arguments
+ - cyclomatic_complexity
+ - function_body_length
+ - force_try
+ - function_parameter_count
+ - type_body_length
+ - file_length
+ - large_tuple
+ - identifier_name
+ - type_name
+ - inclusive_language
+
+# 採用するopt-inルール
+opt_in_rules:
+ - empty_count
+ - overridden_super_call
+ - redundant_nil_coalescing
+ - closure_spacing
+ - switch_case_on_newline
+ - prohibited_super_call
+ - force_unwrapping
+ - closure_end_indentation
+
+excluded:
+ - Pods/
+ - fastlane/
+ - resource/
+ - vendor/
+ - Carthage/
+ - viper_sampleTests/
+ - viper_sampleUITests/
+
+line_length: 160

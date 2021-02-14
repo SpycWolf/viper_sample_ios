@@ -1,0 +1,12 @@
+xcassets:
+  inputs: viper_sample/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: viper_sample/CodeGenerated/AssetsImages.swift
+ib:
+  inputs: [viper_sample/Modules]
+  outputs:
+    - templateName: scenes-swift5
+      output: viper_sample/CodeGenerated/StoryboardScenes.swift
+    - templateName: segues-swift5
+      output: viper_sample/CodeGenerated/StoryboardSegues.swift

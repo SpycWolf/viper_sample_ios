@@ -1,0 +1,59 @@
+### osx ###
+.DS_Store
+
+### xcode ###
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+
+### CocoaPods ###
+/Pods/*
+
+/.bundle
+/vendor/bundle
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+Carthage/Checkouts
+
+Carthage/Build
+
+### fastlane ###
+# fastlane - A streamlined workflow tool for Cocoa deployment
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots/**/*.png
+fastlane/screenshots/screenshots.html
+
+# scan temporary files
+fastlane/test_output
+
+*.cer
+*.mobileprovision
+fastlane/Appfile
+fastlane/Deliverfile
+fastlane/generated
+*.zip
+*.ipa
+
+### direnv ###
+.envrc
+.env
