@@ -15,6 +15,8 @@
 		E00C25FF25D928E8009FCE3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00C25FE25D928E8009FCE3D /* DetailViewController.swift */; };
 		E00C260425D928F4009FCE3D /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00C260325D928F4009FCE3D /* DetailViewController.storyboard */; };
 		E00C263325D93094009FCE3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00C263225D93094009FCE3D /* SceneDelegate.swift */; };
+		E07B3CAD25DA6E0B003DFA64 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07B3CAB25DA6E0B003DFA64 /* ListTableViewCell.swift */; };
+		E07B3CAE25DA6E0B003DFA64 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07B3CAC25DA6E0B003DFA64 /* ListTableViewCell.xib */; };
 		E090C00925CCD40B00BEB251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090C00825CCD40B00BEB251 /* AppDelegate.swift */; };
 		E090C01225CCD40C00BEB251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E090C01125CCD40C00BEB251 /* Assets.xcassets */; };
 		E090C01525CCD40C00BEB251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E090C01325CCD40C00BEB251 /* LaunchScreen.storyboard */; };
@@ -57,6 +59,8 @@
 		E00C25FE25D928E8009FCE3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E00C260325D928F4009FCE3D /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		E00C263225D93094009FCE3D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E07B3CAB25DA6E0B003DFA64 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		E07B3CAC25DA6E0B003DFA64 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		E090C00525CCD40B00BEB251 /* viper_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viper_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E090C00825CCD40B00BEB251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E090C01125CCD40C00BEB251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 			children = (
 				E00C260325D928F4009FCE3D /* DetailViewController.storyboard */,
 				E00C25FE25D928E8009FCE3D /* DetailViewController.swift */,
+				E07B3CAB25DA6E0B003DFA64 /* ListTableViewCell.swift */,
+				E07B3CAC25DA6E0B003DFA64 /* ListTableViewCell.xib */,
 				E00C25F125D927F2009FCE3D /* ListViewController.storyboard */,
 				E00C25F925D92898009FCE3D /* ListViewController.swift */,
 			);
@@ -313,6 +319,7 @@
 				E090C01225CCD40C00BEB251 /* Assets.xcassets in Resources */,
 				E00C260425D928F4009FCE3D /* DetailViewController.storyboard in Resources */,
 				E00C25F225D927F2009FCE3D /* ListViewController.storyboard in Resources */,
+				E07B3CAE25DA6E0B003DFA64 /* ListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E090C09625CD15FE00BEB251 /* StoryboardSegues.swift in Sources */,
+				E07B3CAD25DA6E0B003DFA64 /* ListTableViewCell.swift in Sources */,
 				E00C263325D93094009FCE3D /* SceneDelegate.swift in Sources */,
 				E00C25FA25D92898009FCE3D /* ListViewController.swift in Sources */,
 				E090C09525CD15FE00BEB251 /* AssetsImages.swift in Sources */,
