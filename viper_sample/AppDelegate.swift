@@ -6,8 +6,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        TWTRTwitter.sharedInstance().start(withConsumerKey: "rg0ITYNjiw7ythZoHgt00E7iO",
-                                           consumerSecret: "jAZDXCjNtZ6eu1pRyYOXXGhGOf0n8beuxyTTY0TDRIx8bWoqFR")
+        TWTRTwitter.sharedInstance().start(withConsumerKey: "",
+                                           consumerSecret: "")
         return true
     }
 
