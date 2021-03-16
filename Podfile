@@ -16,6 +16,7 @@ target 'viper_sample' do
   pod 'RxSwift'
   pod 'SwiftGen'
   pod 'SwiftLint'
+  pod 'TwitterKit'
 
   # Pods for viper_sample
 

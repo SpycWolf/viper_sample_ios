@@ -219,6 +219,7 @@
 				E090C00325CCD40B00BEB251 /* Resources */,
 				E090C06B25CD115C00BEB251 /* SwiftGen */,
 				05A5C58AC0D0944AFB8FFED5 /* [CP] Embed Pods Frameworks */,
+				E96D32EBB0D4A2A12BEF753A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +258,7 @@
 				E090C02325CCD40D00BEB251 /* Frameworks */,
 				E090C02425CCD40D00BEB251 /* Resources */,
 				EC681CC816749A77C7DB6DD7 /* [CP] Embed Pods Frameworks */,
+				FCF644643BB42C8F667B3753 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -459,6 +461,23 @@
 			shellPath = /bin/sh;
 			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen\n";
 		};
+		E96D32EBB0D4A2A12BEF753A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viper_sample/Pods-viper_sample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viper_sample/Pods-viper_sample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-viper_sample/Pods-viper_sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EC681CC816749A77C7DB6DD7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,6 +493,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-viper_sample-viper_sampleUITests/Pods-viper_sample-viper_sampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF644643BB42C8F667B3753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viper_sample-viper_sampleUITests/Pods-viper_sample-viper_sampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viper_sample-viper_sampleUITests/Pods-viper_sample-viper_sampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-viper_sample-viper_sampleUITests/Pods-viper_sample-viper_sampleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
