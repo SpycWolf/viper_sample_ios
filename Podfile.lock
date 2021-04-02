@@ -28,6 +28,9 @@ PODS:
   - RxSwift (5.1.1)
   - SwiftGen (6.4.0)
   - SwiftLint (0.42.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
   - Alamofire (= 4.9.1)
@@ -40,6 +43,7 @@ DEPENDENCIES:
   - RxSwift
   - SwiftGen
   - SwiftLint
+  - TwitterKit
 
 SPEC REPOS:
   trunk:
@@ -56,6 +60,8 @@ SPEC REPOS:
     - RxSwift
     - SwiftGen
     - SwiftLint
+    - TwitterCore
+    - TwitterKit
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -71,7 +77,9 @@ SPEC CHECKSUMS:
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: 55bf036091f5ad79423f8b2339d86f2ee195fd3f
+PODFILE CHECKSUM: b4627a83a7ae8461b21edb0cf54ce06b6113d960
 
 COCOAPODS: 1.10.1
